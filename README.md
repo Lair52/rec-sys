@@ -71,8 +71,9 @@ Install the necessary dependencies:
 pip install -r requirements.txt
 ```
 
-## 4. Unzip the dataset files :warning:
+## 4. :warning: Unzip the dataset files 
 
+This repository includes a data.zip file containing both the original dataset and the processed files used in the project. Although storing raw data in a repo is not common, it is necessary here to ensure that all notebooks and the TopicPredictor run without path errors.
 After installing the dependencies, extract the dataset by running the provided script:
 ```bash
 python3 unzip_data.py

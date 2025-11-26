@@ -1,0 +1,6 @@
+faiss-cpu==1.13.0
+pandas==2.3.3
+numpy==2.3.4
+matplotlib==3.10.7
+sentence_transformers==5.1.2
+pydantic==2.12.3
